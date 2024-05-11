@@ -1,0 +1,113 @@
+:root {
+  font-family: mono-sans;
+  font-weight: 400;
+  background-image: url("https://img.freepik.com/free-vector/modern-abstract-blue-green-background-with-elegant-elements-vector-illustration_361591-3749.jpg?w=1800&t=st=1715160274~exp=1715160874~hmac=2be60afc4dc43376125fc767ab2a43436685c615cdf0c1d706765b9d79e785db");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a{
+  font-weight: 500;
+  color: #000224;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #6f7077e7;
+}
+
+body{
+  
+  place-items: center;
+}
+.navbar{
+  width: 99vw;
+  position: sticky;
+  border-radius: 9px;
+  background: #ebe8e8;
+  box-shadow:  -1px -1px 1px #ffffff,
+             5px 5px 10px #e5dcdc;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.navbar ul{
+  font-size: 18px;
+  margin: 10px;
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul li{
+  padding: 10px;
+}
+.navbar_right {
+  display: flex;
+}
+
+.navbar_right h4,.navbar_left h4{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar_left h4{
+  padding-left: 2rem;
+  font-style: italic;
+}
+.active{
+  color: #e9e2e2;
+  background-color: #000224;
+  border-radius: 2rem;
+  padding: 10px;
+}
+.color-picker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.to-do-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.color-picker h1,.to-do-list h1{
+  font-size: 3rem;
+  margin: 20px;
+  padding: 20px;
+}
+.color-display{
+  height: 350px;
+  width: 350px;
+  display: flex;
+  border: 3px solid hsl(0, 10%, 37%);
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: 0.25s ease;
+}
+.color-display p{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  border: 2px solid rgba(66, 109, 77, 0.679);
+  height: 50px;
+  width: 75px;
+  border-radius: 6px;
+  padding: 0px;
+}
+.frame{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.taskitem{
+  flex: 1;
+  
+}
