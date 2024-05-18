@@ -1,9 +1,17 @@
 :root {
   font-family: mono-sans;
   font-weight: 400;
-  background-image: url("https://img.freepik.com/free-vector/modern-abstract-blue-green-background-with-elegant-elements-vector-illustration_361591-3749.jpg?w=1800&t=st=1715160274~exp=1715160874~hmac=2be60afc4dc43376125fc767ab2a43436685c615cdf0c1d706765b9d79e785db");
+}
+.main-container::before{
+  content: '';
+  background-image: url("https://wallpapercave.com/wp/wp4971144.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment:fixed ;
+  position: absolute;
+  inset: 0px;
+  opacity:39%;
+  z-index: -1;
 }
 
 a{
@@ -21,7 +29,8 @@ body{
 }
 .navbar{
   width: 99vw;
-  position: sticky;
+  position: relative;
+  opacity: 90%;
   border-radius: 9px;
   background: #ebe8e8;
   box-shadow:  -1px -1px 1px #ffffff,

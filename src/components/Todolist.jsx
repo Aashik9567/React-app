@@ -49,9 +49,9 @@ const Todolist = () => {
         <span className="taskitem">{tasks}</span>
            <button className="del-btn" onClick={()=>{
              deleteTask(index)
-           }}>Delete Task<i className="fa-regular fa-trash-can"></i></button>
-          <button className="moveup-btn" onClick={()=>{moveUp(index)}}>Move up<i className="fa-regular fa-circle-up"></i></button>
-          <button className="moveup-btn" onClick={()=>{moveDown(index)}}>Move down<i className="fa-regular fa-circle-down"></i></button>
+           }}><i className="fa-regular fa-trash-can"></i></button>
+          <button className="moveup-btn" onClick={()=>{moveUp(index)}}><i className="fa-regular fa-circle-up"></i></button>
+          <button className="moveup-btn" onClick={()=>{moveDown(index)}}><i className="fa-regular fa-circle-down"></i></button>
         </li>)}
        </ul>
        </div>
