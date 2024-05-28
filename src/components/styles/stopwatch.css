@@ -1,0 +1,22 @@
+.display{
+    font-family: klavika;
+    font-weight: bold;
+    font-size: 4rem;
+    color: rgb(36, 53, 139);
+    border: 2px solid rgb(79, 70, 70);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+    height: 6rem;
+    margin: auto;
+    backdrop-filter: blur(10px);
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}

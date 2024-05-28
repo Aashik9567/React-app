@@ -8,7 +8,6 @@ const ColorPage = () => {
     <div className="frame">
     <Colorpicker/>
     <Todolist/>
-    {/* <ProductList/> */}
    </div>
   )
 }
